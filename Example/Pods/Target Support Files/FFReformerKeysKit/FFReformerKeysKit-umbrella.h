@@ -11,7 +11,6 @@
 #endif
 
 #import "FFReformerKeysKit.h"
-#import "FFReformerKeysKit.h"
 #import "FFAuthorListReformerKeys.h"
 #import "FFSpecialListReformerKeys.h"
 

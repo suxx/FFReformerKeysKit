@@ -37,14 +37,15 @@ TODO: Add long description of the pod here.
   # }
 
 #暴露的头文件
-  s.ios.public_header_files = 'FFReformerKeysKit/Classes/Header/*.h'
+#s.public_header_files = 'FFReformerKeysKit/Classes/*'
 #---------文件分级----------------
+#s.subspec 'Header' do |h|
+#h.source_files = 'FFReformerKeysKit/Classes/*'
+#end
 s.subspec 'ReformerKeys' do |r|
     r.source_files = 'FFReformerKeysKit/Classes/ReformerKeys/*.{h,m}'
 end
-s.subspec 'Header' do |h|
-    h.source_files = 'FFReformerKeysKit/Classes/Header/*.h'
-end
+
 #---------文件分级----------------
 
   # s.frameworks = 'UIKit', 'MapKit'

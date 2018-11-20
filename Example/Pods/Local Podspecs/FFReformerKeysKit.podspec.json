@@ -19,15 +19,11 @@
     "ios": "8.0"
   },
   "source_files": "FFReformerKeysKit/Classes/**/*.{h,m}",
-  "public_header_files": "FFReformerKeysKit/Classes/Header/*.h",
+  "public_header_files": "FFReformerKeysKit/Classes/*.h",
   "subspecs": [
     {
       "name": "ReformerKeys",
-      "source_files": "FFReformerKeysKit/Classes/ReformerKeys/*"
-    },
-    {
-      "name": "Header",
-      "source_files": "FFReformerKeysKit/Classes/Header/*"
+      "source_files": "FFReformerKeysKit/Classes/ReformerKeys/*.{h,m}"
     }
   ]
 }

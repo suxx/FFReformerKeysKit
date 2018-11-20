@@ -13,6 +13,8 @@
 #import "FFReformerKeysKit.h"
 #import "FFAuthorListReformerKeys.h"
 #import "FFSpecialListReformerKeys.h"
+#import "FFAuthorListReformerKeys.h"
+#import "FFSpecialListReformerKeys.h"
 
 FOUNDATION_EXPORT double FFReformerKeysKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char FFReformerKeysKitVersionString[];

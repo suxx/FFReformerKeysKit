@@ -1,5 +1,9 @@
 PODS:
-  - FFReformerKeysKit (0.1.0)
+  - FFReformerKeysKit (0.1.0):
+    - FFReformerKeysKit/Header (= 0.1.0)
+    - FFReformerKeysKit/ReformerKeys (= 0.1.0)
+  - FFReformerKeysKit/Header (0.1.0)
+  - FFReformerKeysKit/ReformerKeys (0.1.0)
 
 DEPENDENCIES:
   - FFReformerKeysKit (from `../`)
@@ -9,7 +13,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FFReformerKeysKit: 42d499ca23c3ba619722e18c6600d730d696d4bb
+  FFReformerKeysKit: 0c23b7e421dd9f1662319b71b9c2b1be4203fd0e
 
 PODFILE CHECKSUM: c6d7bab27d0a6eb8e82bb9a9339a8fe5930c42b0
 

@@ -30,13 +30,23 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'FFReformerKeysKit/Classes/**/*'
+  s.source_files = 'FFReformerKeysKit/Classes/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'FFReformerKeysKit' => ['FFReformerKeysKit/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+#暴露的头文件
+  s.ios.public_header_files = 'FFReformerKeysKit/Classes/Header/*.h'
+#---------文件分级----------------
+s.subspec 'ReformerKeys' do |r|
+    r.source_files = 'FFReformerKeysKit/Classes/ReformerKeys/*.{h,m}'
+end
+s.subspec 'Header' do |h|
+    h.source_files = 'FFReformerKeysKit/Classes/Header/*.h'
+end
+#---------文件分级----------------
+
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
